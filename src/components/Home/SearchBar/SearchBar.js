@@ -11,33 +11,41 @@ const SearchBar = () => {
     return (
         <div className=" mainHeader">
             <div className="container">
-                <div className="row header">
-                    <div className="header-logo">
+              
+
+                <div className="row header ">
+                    <div className="header-logo col-md-4">
                         <Link className="title" to="/"><span className="title-one">bina</span> <span className="title-two">bazaar</span></Link>
                     </div>
-                    <div className="header-search">
+                   <div className="col-md-6">
+                   <div className="header-search ">
                         <input className="search-field" placeholder="Product Name..." style={{ borderRadius: "6px 0px 0px 6px", borderColor: "#9F9F9F", borderDecoration: "none", borderStyle: "solid" }} type="text"></input>
                     </div>
-                    <div className="header-search-icon d-flex align-items-center justify-content-center">
+                    <div className="header-search-icon d-flex align-items-center justify-content-center ">
                         {/* icon1 */}
                         <Link className="title"><span style={{ color: "white" }}>Search <i class="fa fa-search" aria-hidden="true"></i></span></Link>
                     </div>
 
+                   </div>
+
+
+                    <div className="row">
                     <div className="bar-icon d-flex align-items-center box-size">
 
                         <Link><img src={icon1} alt="" /></Link>
-                    </div>
-                    <div className="bar-icon d-flex align-items-center box-size">
+                        </div>
+                        <div className="bar-icon d-flex align-items-center box-size">
 
                         <Link><img src={icon2} alt="" /></Link>
-                    </div>
-                    <div className="bar-icon d-flex align-items-center box-size">
+                        </div>
+                        <div className="bar-icon d-flex align-items-center box-size">
 
                         <Link><img src={icon3} alt="" /></Link>
-                    </div>
-                    <div className="bar-icon d-flex align-items-center box-size">
+                        </div>
+                        <div className="bar-icon d-flex align-items-center box-size">
 
                         <Link><img src={icon4} alt="" /></Link>
+                        </div>
                     </div>
 
                 </div>
