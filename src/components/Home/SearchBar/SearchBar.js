@@ -14,10 +14,10 @@ const SearchBar = () => {
               
 
                 <div className="row header ">
-                    <div className="header-logo col-md-4">
+                    <div className="header-logo ">
                         <Link className="title" to="/"><span className="title-one">bina</span> <span className="title-two">bazaar</span></Link>
                     </div>
-                   <div className="col-md-6">
+                 
                    <div className="header-search ">
                         <input className="search-field" placeholder="Product Name..." style={{ borderRadius: "6px 0px 0px 6px", borderColor: "#9F9F9F", borderDecoration: "none", borderStyle: "solid" }} type="text"></input>
                     </div>
@@ -26,7 +26,7 @@ const SearchBar = () => {
                         <Link className="title"><span style={{ color: "white" }}>Search <i class="fa fa-search" aria-hidden="true"></i></span></Link>
                     </div>
 
-                   </div>
+                 
 
 
                     <div className="row">
